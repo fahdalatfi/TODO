@@ -1,0 +1,57 @@
+body {
+    background-color: aliceblue;
+}
+
+h1{
+    display: block;
+    margin: 10% auto 0 auto;
+    width: 300px;
+    color: #96e5ff;
+
+}
+
+.title{
+    display: block;
+}
+
+.form{
+    display: block;
+}
+
+input{
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px #d6eeff solid;
+    
+
+}
+
+button{
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: snow;
+    border: solid 1px #d6eeff;
+
+}
+
+#list{
+    padding: 150px;
+    height: 300px;
+    max-width: 300px !important;
+    background-color: snow;
+    border-radius: 10px;
+    border: #d6eeff solid 1px;
+    display: block;
+    margin: 5px auto 0 auto
+}
+
+li{
+    list-style-type: none;
+}
