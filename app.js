@@ -1,9 +1,7 @@
 function Adding(){
     let li = document.createElement('li')
-    let inputValue = document.getElementById('text').value;
-    let t = document.createTextNode(inputValue);
+    li.innerText =  document.getElementById('text').value;
     document.getElementById('list').appendChild(li);
-    document.getElementById('list').appendChild(t);
     
 }
 
