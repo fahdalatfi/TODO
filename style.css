@@ -41,10 +41,14 @@ button{
 
 }
 
+button:hover{
+    background-color: #dae8ed;
+}
+
 #list{
-    padding: 150px;
-    height: 300px;
-    max-width: 300px !important;
+    padding: 10px;
+    height: 500px;
+    width: 450px;
     background-color: snow;
     border-radius: 10px;
     border: #d6eeff solid 1px;
@@ -54,5 +58,16 @@ button{
 
 li{
     list-style-type: none;
-    background-color: grey;
+    color: whitesmoke;
+    text-align: center;
+    display: block;
+    background-color: #d3e5eb;
+    border-radius: 20px;
+    padding: 10px;
+    width: 400px;
+    margin: 5px auto 5px auto
+}
+
+li:hover{
+    background-color: #dae8ed;
 }
